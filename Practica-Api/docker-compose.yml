@@ -19,7 +19,7 @@ services:
       retries: 5
 
   products-api:
-    image: eduardo2704garcia/products-api:v1
+    image: eduardo2704garcia/img-app-productos:V4
     container_name: c-app-products
     restart: always
     environment:
@@ -37,7 +37,7 @@ services:
       - test-network
 
   categories-api:
-    image: eduardo2704garcia/categories-api:v2
+    image: eduardo2704garcia/img-app-categorias:V4
     container_name: c-app-categorias
     restart: always
     environment:
@@ -55,7 +55,7 @@ services:
       - test-network
 
   frontend:
-    image: eduardo2704garcia/frontend-gestion:V3
+    image: eduardo2704garcia/img-frontend-gestion:V4
     container_name: c-frontend-gestion
     restart: always
     ports:
