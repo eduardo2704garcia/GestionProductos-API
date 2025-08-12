@@ -13,7 +13,7 @@ export interface Product {
   providedIn: 'root'
 })
 export class ProductService {
-  private apiUrl = 'http://localhost:8081/api/products';
+  private apiUrl = 'http://3.150.57.212:8081/api/products';
 
   constructor(private http: HttpClient) {}
 
