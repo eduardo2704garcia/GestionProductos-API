@@ -55,7 +55,7 @@ services:
       - test-network
 
   frontend:
-    image: eduardo2704garcia/img-frontend-gestion:V4
+    image: eduardo2704garcia/img-frontend-gestion:V5
     container_name: c-frontend-gestion
     restart: always
     ports:
